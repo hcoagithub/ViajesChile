@@ -44,3 +44,14 @@
     justify-content: center;
 
 }
+
+/* destacados */
+
+#destacados {
+    background:black;
+}
+
+.card-body{
+    background-color: rgb(50, 177, 182);
+    font-size: 12px;
+}
