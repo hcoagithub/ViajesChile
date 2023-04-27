@@ -3,7 +3,7 @@
 
 .navbar {
     background-color: rgb(50, 177, 182);
-}
+} 
 
 .menu a {
     color: #fff;
@@ -15,6 +15,12 @@
     height: 30px;
 
 }
+
+
+.navOnOff{
+    opacity: 0.9;
+    transition: all .40s ease-in-out;
+  }
 
 
 /* header */
@@ -42,8 +48,11 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    color: #fff;
 
 }
+
+
 
 /* destacados */
 
@@ -65,5 +74,24 @@
 
 #enviar{
     background-color: rgb(50, 177, 182);
+    color: #fff;
     
+}
+
+/* footer */
+
+.footer{
+    background-color: rgb(50, 177, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    
+}
+
+
+
+.redesociales a {
+    color: #fff;
+    font-size:30px;
 }
